@@ -377,7 +377,7 @@ class Patch extends BaseApi
             array_push($errors, $e->getMessage());
         }
 
-        $file = '../../backup/'.$backup_sql;
+        $file = '../..//'.$backup_sql;
         $query = file_get_contents($file);
         $s = $this->PDO->prepare($query);
         try {
