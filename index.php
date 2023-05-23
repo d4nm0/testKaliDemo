@@ -329,7 +329,7 @@ class Patch extends BaseApi
     {
         $d = $this->checkParams(
             [
-                'patch_name' => 'number'
+                'patch_name' => 'string'
             ]
         );
 
