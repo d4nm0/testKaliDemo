@@ -693,7 +693,7 @@ class Doc extends BaseApi
     {
         $d = $this->checkParams(
             [
-                'ei_username' => 'string'
+                'ei_username' => 'int'
             ]
         );
         // Récupération de la version max de la version
