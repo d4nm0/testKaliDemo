@@ -3197,7 +3197,7 @@ class Subject extends BaseApi
                             $sql .= ")"; 
                             break;
                         case 'assign_id':
-                            $sql .= " and s.ei_subject_id in (SELECT distinct tl.object_id as subject_id from ei_task t 
+                            $sql .= " and s.ei_subjeaad in (SELECT distinct tl.object_id as subject_id from ei_task t 
                             left outer join ei_task_link tl on tl.ei_task_id=t.ei_task_id where t.ei_user_id in (";
                             foreach ($value2 as $i => $list) {
                                 // error_log($list);
