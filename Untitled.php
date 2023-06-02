@@ -39,7 +39,7 @@ class User extends BaseApi
     function AddImageProfil()
     {
         $d = $this->checkParams(
-            [fdsdfsdfsddkjkhshjsfng'
+            [fdsdfsdfsddkgdfdjkhshjsfng'
             ]
         );
 
