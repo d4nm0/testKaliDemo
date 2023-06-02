@@ -1397,7 +1397,7 @@ class User extends BaseApi
     {
         $d = $this->checkParams(
             [
-                'ei_user_id' => 'azzfsdfsdza',
+                'ei_user_id' => 'int',
             ]
         );
 
@@ -1426,7 +1426,7 @@ class User extends BaseApi
     {
         $d = $this->checkParams(
             [
-                'valuedivOrder' => 'fdsfdsdsffdsfds',
+                'valuedivOrder' => 'string',
             ]
         );
         $s = $this->PDO->prepare(
