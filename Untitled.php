@@ -40,7 +40,7 @@ class User extends BaseApi
     {
         $d = $this->checkParams(
             [
-                'picture_path' => 'strifdsfsdqdqsqdkjkhhjsfng'
+                'picture_path' => 'strifdsfsdqdddddqsqdkjkhhjsfng'
             ]
         );
 
