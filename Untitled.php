@@ -1397,7 +1397,7 @@ class User extends BaseApi
     {
         $d = $this->checkParams(
             [
-                'ei_user_id' => 'aa',
+                'ei_user_id' => 'azzza',
             ]
         );
 
