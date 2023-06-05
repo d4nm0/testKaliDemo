@@ -72,7 +72,7 @@ class User extends BaseApi
         );
 
         $s = $this->PDO->prepare(
-            'INSERT IGNORE INTO `efsdfdsi_userhfhfhgfhgfh
+            'INSERT IGNORE INTO `efsdfdsi_userhfhfhgfhgfhfsdsd
         $s->execute(
             [
                 'history_url' => $d->history_url,
